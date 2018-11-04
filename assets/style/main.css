@@ -1,0 +1,126 @@
+html {min-height: 95%}
+
+body {
+	font-family: roboto, sans-serif, arial;
+	height: 100%;
+	margin: 0;
+	padding-bottom: 30px;
+
+	color : #3C3C3C;
+	background-color: #e1e2e1;
+}
+
+
+header {
+	border-top: 2vh solid #1f2868;
+	margin-bottom: 30px;
+	padding: 1vw;
+
+	color: white;
+	background-color: rgb(80, 80, 150);
+	box-shadow: 1px 0 5px black;
+}
+
+img {
+	border-radius: 3px;
+}
+
+section {
+	padding: 30px;
+
+	border-radius: 3px;
+	
+	box-shadow: 1px 0 6.25px rgba(0, 0, 0, 0.3);
+}
+
+section h2 {
+	margin-left: 20px;
+}
+
+figure {
+	margin-top: 0;
+	float: right;
+}
+
+figure img {
+	max-width: 15vw;
+}
+
+figcaption {
+	text-align: center;
+	color: rgb(150, 150, 150);
+}
+
+a {
+	outline: none;
+	color: hsl(117, 100%, 41%);
+
+	transition: color 0.2s;
+}
+
+a:hover {
+	color: hsl(117, 100%, 51%);
+}
+
+a:active {
+	color: hsl(117, 100%, 31%);
+}
+
+a.disabled {
+	pointer-events: none;
+}
+
+.normalSection {
+	background-color: hsl(240, 5%, 96%);
+	transition: background-color 0.2s;
+}
+
+.normalSection.clickable:hover {
+	background-color: hsl(223, 100%, 95%);
+}
+
+.normalSection.clickable:active {
+	background-color: hsl(223, 100%, 90%);
+}
+
+.noLinkStyle {
+	text-decoration: none;
+	border: none;
+	outline: none;
+	color: inherit;
+}
+
+.noLinkStyle:hover {
+	color: inherit;
+}
+
+.noLinkStyle:active {
+	color: inherit;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.hidden {
+	opacity: 0;
+	cursor: default;
+}	
+
+.contentBlock {
+	margin-top: 20px;
+	width: 80%;
+}
+
+.disableTextSelection {
+  	-moz-user-select: none;    
+}
+
+#contentContainer {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+

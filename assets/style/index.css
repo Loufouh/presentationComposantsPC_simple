@@ -1,0 +1,9 @@
+#evilSection {
+	color: white;
+	background-color: rgb(52, 52, 52);
+}
+
+#evilSection.hidden {
+	opacity: 0;
+	cursor: default;
+}
